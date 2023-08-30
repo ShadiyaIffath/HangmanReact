@@ -15,10 +15,12 @@
 .btn.active {
     background-color: hsl(200, 100%, 50%);
     color: white;
+    cursor: not-allowed;
 }
 
 .btn.inactive {
     opacity: .3;
+    cursor: not-allowed;
 }
 
 .btn:hover:not(:disabled),
